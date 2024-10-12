@@ -24,6 +24,165 @@ ul{
 }
 
 body{
-    font-family: sans-serif;
+    font-family: "League Spartan", sans-serif;
     margin: 0;
+    position: relative;
+    top: 0px;
 }
+
+.fondotopmobile{
+    position: absolute;
+    top: 0px;
+    z-index: -1;
+}
+
+.fondotopdesk{
+    position: absolute;
+    opacity: 0;
+    top: 0px;
+    z-index: -1;
+}
+
+.fondobotmobile{
+    position: absolute;
+    opacity: 1;
+    bottom: 0px;
+    z-index: -1;
+}
+
+.fondobotdesk{
+    position: absolute;
+    opacity: 0;
+    bottom: 0px;
+    z-index: -1;
+}
+
+.box1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.box2{
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box1_1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 327px;
+}
+.title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #512051;
+    line-height: 32px;
+    text-align: center;
+    margin-bottom: 17px;
+}
+
+.text{
+    font-weight: 500;
+    font-size: 19px;
+    color: #927B91;
+    line-height: 25px;
+    text-align: center;
+}
+
+.box1_1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 327px;
+}
+
+.starsbox{
+    width: 327px;
+    background-color: #F7F2F7 ;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-top: 16px;
+}
+
+.stars{
+    display: flex;
+    flex-direction: row;
+    width: 116px;
+    justify-content: space-between;
+    align-self: center;
+}
+
+.h2bold{
+    font-weight: 700;
+    font-size: 17px;
+    color: #512051;
+}
+
+.box2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 327px;
+}
+
+.card{
+    width: 327px;
+    background-color: #512051;
+    color: #FFF;
+    border-radius: 8px;
+    padding: 32px;
+    margin-bottom: 16px;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 23px;
+}
+
+.profilepic{
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 23px;
+}
+
+.buyer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 36px;
+}
+
+.h4bold{
+    font-weight: 700;
+    font-size: 17px;
+    margin-bottom: 2px;
+}
+
+.h4reg{
+    font-weight: 400;
+    font-size: 17px;
+    color: #EE69A4;
+    margin-top: 2px;
+}
+
+.review{
+    margin-top: 23px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 22px;
+    text-align: left;
+    margin-bottom: 0px;
+}
+
+
