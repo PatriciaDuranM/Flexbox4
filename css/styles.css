@@ -61,14 +61,16 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    margin-top: 82px;
 }
 
-.box2{
-    margin-inline: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+@media screen and (width>786px) {
+    .box1{
+        margin-inline: auto;
+        flex-direction: row;
+        width: 1110px;
+        justify-content: space-between;
+    }
 }
 
 .box1_1{
@@ -76,7 +78,16 @@ body{
     flex-direction: column;
     align-items: center;
     width: 327px;
+    margin-bottom: 44px;
 }
+
+@media screen and (width>786px) {
+    .box1_1{
+        width: 445px;
+        margin-bottom: 0px;
+    }
+}
+
 .title{
     font-weight: 700;
     font-size: 40px;
@@ -84,6 +95,14 @@ body{
     line-height: 32px;
     text-align: center;
     margin-bottom: 17px;
+}
+
+@media screen and (width>786px) {
+    .title{
+        font-size: 56px;
+        line-height: 48px;
+        text-align: left;
+}
 }
 
 .text{
@@ -94,11 +113,23 @@ body{
     text-align: center;
 }
 
-.box1_1{
+@media screen and (width>786px) {
+    .text{
+        text-align: left;
+}
+}
+
+.box1_2{
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 327px;
+}
+
+@media screen and (width>786px) {
+    .box1_2{
+        width: 540px;
+}
 }
 
 .starsbox{
@@ -113,12 +144,43 @@ body{
     padding-top: 16px;
 }
 
+@media screen and (width>786px) {
+    .starsbox{
+        width: 445px;
+        height: 56px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 32px;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
+}
+@media screen and (width>786px) {
+    .starbox1{
+        align-self: flex-start;
+}
+}
+
+@media screen and (width>786px) {
+    .starbox3{
+        align-self: flex-end;
+}
+}
+
 .stars{
     display: flex;
     flex-direction: row;
     width: 116px;
     justify-content: space-between;
     align-self: center;
+}
+
+
+@media screen and (width>786px) {
+    .stars{
+       margin-right: 32px;
+    }
 }
 
 .h2bold{
@@ -128,10 +190,20 @@ body{
 }
 
 .box2{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    margin-inline: auto;
     width: 327px;
+    margin-top: 28px;
+}
+
+@media screen and (width>786px) {
+    .box2{
+        width: 1110px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 266px;
+        margin-top: 71px;
+    }
 }
 
 .card{
@@ -141,6 +213,31 @@ body{
     border-radius: 8px;
     padding: 32px;
     margin-bottom: 16px;
+}
+
+@media screen and (width>786px) {
+    .card{
+        width: 350px;
+        height: 234px;
+        margin-bottom: 0px;
+    }
+}
+
+@media screen and (width>786px) {
+    .card1{
+        align-self: flex-start;
+    }
+}
+
+@media screen and (width>786px) {
+    .card2{
+        align-self: center;
+    }
+}
+@media screen and (width>786px) {
+    .card3{
+        align-self: flex-end;
+    }
 }
 
 .profile{
